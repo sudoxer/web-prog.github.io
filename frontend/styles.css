@@ -156,12 +156,13 @@ body {
   min-height: 230px;
 }
 
-.img-placeholder {
+.product-image {
   height: 120px;
   border-radius: 10px;
   border: 2px dashed #c7d1e5;
-  display: grid;
-  place-items: center;
+  display: block;
+  width: 100%;
+  object-fit: cover;
   color: #8ca0c2;
   font-weight: 700;
   margin-bottom: 0.7rem;
