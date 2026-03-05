@@ -157,7 +157,7 @@ body {
 }
 
 .product-image {
-  height: 120px;
+  height: 100%;
   border-radius: 10px;
   border: 2px dashed #c7d1e5;
   display: block;
