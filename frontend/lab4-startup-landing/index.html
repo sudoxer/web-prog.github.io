@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaFlow — Лендинг стартапа</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#hero">NovaFlow</a>
+        <nav class="main-nav" aria-label="Основная навигация">
+          <a href="#description">О проекте</a>
+          <a href="#advantages">Преимущества</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+        <a class="button button-secondary" href="#contacts">Запросить демо</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section" id="hero">
+        <div class="hero-background" aria-hidden="true"></div>
+        <div class="container hero-content">
+          <p class="hero-label hero-load">Платформа для стартапов</p>
+          <h1 class="hero-title">
+            Ускоряйте продуктовые процессы с понятным и лаконичным инструментом
+          </h1>
+          <p class="hero-text hero-load">
+            NovaFlow помогает небольшим командам планировать, отслеживать и
+            выпускать функции без лишней управленческой нагрузки.
+          </p>
+          <div class="hero-actions hero-load">
+            <a class="button button-primary" href="#advantages"
+              >Смотреть преимущества</a
+            >
+            <a class="button button-ghost" href="#description">Узнать больше</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="description">
+        <div class="container section-inner">
+          <h2>Что такое NovaFlow</h2>
+          <p>
+            NovaFlow — это легкое рабочее пространство для стартапов: планирование
+            продукта, командные обновления и прозрачность релизов. Решение создано
+            для компаний ранней стадии, которым важны ясность, скорость и
+            предсказуемый результат.
+          </p>
+          <div class="description-grid">
+            <article class="description-card">
+              <h3>Сфокусированное планирование</h3>
+              <p>
+                Храните цели, задачи и приоритеты продукта в одном месте с простым
+                недельным циклом работы.
+              </p>
+            </article>
+            <article class="description-card">
+              <h3>Быстрая синхронизация команды</h3>
+              <p>
+                Замените длинные статус-встречи структурированными обновлениями,
+                которые видны всей команде в реальном времени.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="advantages">
+        <div class="container section-inner">
+          <h2>Преимущества</h2>
+          <div class="advantages-grid">
+            <article class="advantage-card reveal">
+              <h3>Простой интерфейс</h3>
+              <p>
+                Минималистичный интерфейс сокращает время адаптации и позволяет
+                команде начать работу с первого дня.
+              </p>
+            </article>
+            <article class="advantage-card reveal">
+              <h3>Умный обзор прогресса</h3>
+              <p>
+                Актуальные индикаторы прогресса показывают состояние спринта и
+                уверенность в сроках поставки.
+              </p>
+            </article>
+            <article class="advantage-card reveal">
+              <h3>Гибкое взаимодействие</h3>
+              <p>
+                Комментарии, упоминания и обновления статусов делают коммуникацию
+                понятной без перегруженных чатов.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contacts">
+        <div class="container section-inner contacts-layout">
+          <div class="contacts-info">
+            <h2>Контакты</h2>
+            <p>
+              Обсудите ваш продуктовый процесс и получите живую демонстрацию
+              платформы.
+            </p>
+            <ul class="contact-list">
+              <li>Email: hello@novaflow.io</li>
+              <li>Телефон: +1 (415) 555-0124</li>
+              <li>Адрес: 500 Market Street, San Francisco, CA</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Имя</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button class="button button-primary" type="submit">
+              Отправить заявку
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>NovaFlow Startup Landing</p>
+        <p>Лабораторная работа №4: CSS-анимации</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
